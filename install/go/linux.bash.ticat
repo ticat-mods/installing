@@ -1,0 +1,5 @@
+help = install golang on linux system
+abbr = lnx
+
+[dep]
+wget = to install go binary package

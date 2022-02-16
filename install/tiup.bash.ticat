@@ -1,0 +1,5 @@
+help = install rust on linux system
+abbr = lnx
+
+[dep]
+curl = to install go binary package

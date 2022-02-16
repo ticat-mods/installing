@@ -1,0 +1,5 @@
+help = check command exists, if not then try to install it. support brew/apt-get/yum
+
+[arg]
+command|cmd = ''
+module-name-to-be-installed|install-name|install = ''
