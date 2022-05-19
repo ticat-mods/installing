@@ -1,4 +1,5 @@
-help = check command exists, if not then try to install it. support brew/apt-get/yum
+help = check command exists, if not then try to install it. support brew/apt-get/yum/pacman
+quiet-error = true
 
 [arg]
 command|cmd = ''

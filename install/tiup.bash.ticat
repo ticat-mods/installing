@@ -1,5 +1,5 @@
-help = install rust on linux system
-abbr = lnx
+help = install tiup on linux system
+quiet-error = true
 
 [dep]
-curl = to install go binary package
+curl = to download the installing shell script file
