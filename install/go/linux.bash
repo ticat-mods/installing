@@ -8,9 +8,13 @@ fi
 
 cd ~
 
-pkg='go1.17.7.linux-amd64.tar.gz'
+#src='https://go.dev/dl'
+#pkg='go1.17.7.linux-amd64.tar.gz'
+src='https://studygolang.com/dl/golang'
+pkg='go1.18.2.linux-amd64.tar.gz'
+
 rm -rf "${pkg}"
-wget "https://go.dev/dl/${pkg}"
+wget "${src}/${pkg}"
 
 rm -rf './go' && tar -xzvf "${pkg}"
 
