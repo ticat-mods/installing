@@ -1,6 +1,11 @@
 set -euo pipefail
 . "`cd $(dirname ${BASH_SOURCE[0]}) && pwd`/../helper/bash.helper/helper.bash"
 
+if [ -x "$(command -v ticat)" ]; then
+	echo "[:)] previous installation exists, skipped adding ticat to os \$PATH"
+	exit
+fi
+
 env=`cat "${1}/env"`
 
 ticat=`must_env_val "${env}" 'sys.paths.ticat'`
