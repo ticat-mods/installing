@@ -11,7 +11,7 @@ if [ -z "${cmd_check}" ]; then
 fi
 
 cmd_install="${2}"
-if [ -z "${cmd_check}" ]; then
+if [ -z "${cmd_install}" ]; then
 	cmd_install="${cmd_check}"
 fi
 
