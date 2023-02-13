@@ -1,6 +1,7 @@
 help = install rust on linux system
 abbr = lnx
 quiet-error = true
+interact = true
 
 [dep]
 curl = to download the installing shell script file
